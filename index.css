@@ -1,0 +1,29 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-box {
+  background-color: #fff;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  border: #f5f5f5 1px solid;
+  text-align: center;
+}
+
+.grid-box.empty {
+  background-color: #454545;
+}
